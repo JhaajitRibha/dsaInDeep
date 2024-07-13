@@ -1,4 +1,4 @@
-package GeeksForGeeksSelfPaced.String.Problems.PalindromeCheck;
+package GeeksForGeeksSelfPaced.String.Videos.PalindromeCheck;
 
 public class PalindromeCheckSecondApproach {
 
