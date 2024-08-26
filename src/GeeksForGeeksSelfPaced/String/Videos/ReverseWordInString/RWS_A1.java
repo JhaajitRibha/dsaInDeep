@@ -51,7 +51,7 @@ public class RWS_A1 {
 
     public static void main(String[] args) {
 
-        System.out.println(reverseWord("i love coding ajit jee"));
+        System.out.println(reverseWord("the sky is blue"));
     }
 
 }

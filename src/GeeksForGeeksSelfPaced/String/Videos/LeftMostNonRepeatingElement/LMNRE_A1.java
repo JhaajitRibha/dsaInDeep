@@ -31,7 +31,7 @@ public class LMNRE_A1 {
     }
     public static void main(String[] args) {
 
-        String word = "abkdbcdakb";
+        String word = "racecars";
         System.out.println(nonRepeatingElement(word));
 
 

@@ -23,6 +23,6 @@ public class LMNRE_A2 {
 
     public static void main(String[] args) {
 
-        System.out.println(nonRepeatingCharacter("abcdca"));
+        System.out.println(nonRepeatingCharacter("racecars"));
     }
 }
