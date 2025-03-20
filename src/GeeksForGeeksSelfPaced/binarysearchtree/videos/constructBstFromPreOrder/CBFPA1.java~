@@ -1,0 +1,30 @@
+package GeeksForGeeksSelfPaced.binarysearchtree.videos.constructBstFromPreOrder;
+
+import GeeksForGeeksSelfPaced.binarysearchtree.BSTNode;
+import GeeksForGeeksSelfPaced.binarysearchtree.videos.InsertingElement.IEA1;
+
+public class CBFPA1 {
+    public static BSTNode constructBstFromPre(int[] preOrder,int start,int end,BSTNode root){
+        while(start<end){
+            insertBST(root,preOrder[start]);
+            start++;
+        }
+
+        return root;
+    }
+    public static BSTNode insertBST(BSTNode root,int data){
+        if(root==null){
+            root = new BSTNode(data,null,null);
+            return root;
+        }else if(data<root.data){
+            root.left = insertBST(root.left,data);
+        }else{
+            root.right = insertBST(root.right,data);
+        }
+        return root;
+    }
+    public static void main(String[] args) {
+        BSTNode root = constructBstFromPre(new int[]{8,5,1,7,10,12},0,5,null);
+        IEA1.printBST(root);
+    }
+}

@@ -3,6 +3,12 @@ package GeeksForGeeksSelfPaced.LinkedList.Videos.CirculardDoublyLinkedList.Inser
 import GeeksForGeeksSelfPaced.Dnode;
 
 public class IABCDA1 {
+    /**
+     * Traverses a circular doubly linked list starting from the given head node.
+     * It prints the data of each node in the list until it reaches back to the head node.
+     *
+     * @param head the starting node of the circular doubly linked list
+     */
     public static void traversalDoublyCirLinList(Dnode head){
         Dnode temp=head;
         do{
