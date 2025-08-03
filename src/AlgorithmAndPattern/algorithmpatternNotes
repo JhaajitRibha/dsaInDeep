@@ -1,3 +1,35 @@
+
+
+time complexity :
+
+| Rank | Complexity     | Description / Example                                                              |
+| ---- | -------------- | ---------------------------------------------------------------------------------- |
+| 1    | **O(1)**       | Constant time — access array element, hashmap get/put                              |
+| 2    | **O(log n)**   | Logarithmic — binary search, balanced BST operations                               |
+| 3    | **O(n)**       | Linear — linear search, single loop                                                |
+| 4    | **O(n log n)** | Linearithmic — efficient sorts like mergesort, heapsort, quicksort (avg case)      |
+| 5    | **O(n²)**      | Quadratic — nested loops (e.g., bubble sort, selection sort, insertion sort worst) |
+| 6    | **O(n³)**      | Cubic — triple nested loops, some dynamic programming problems                     |
+| 7    | **O(2ⁿ)**      | Exponential — brute-force recursion in combinatorial problems (e.g., subset, fib)  |
+| 8    | **O(n!)**      | Factorial — permutations, traveling salesman problem (TSP), brute-force solutions  |
+
+space complexity:
+
+| Rank | Complexity     | Description / Example                                                 |
+| ---- | -------------- | --------------------------------------------------------------------- |
+| 1    | **O(1)**       | Constant space — variables only, no extra data structures             |
+| 2    | **O(log n)**   | Recursive stack for binary search                                     |
+| 3    | **O(n)**       | Arrays, hash tables, lists storing n elements                         |
+| 4    | **O(n log n)** | Used in merge sort (due to divide-and-conquer recursion)              |
+| 5    | **O(n²)**      | 2D matrices, adjacency matrix for graphs                              |
+| 6    | **O(2ⁿ)**      | Recursion trees for exponential problems (e.g., power set generation) |
+| 7    | **O(n!)**      | Storing all permutations                                              |
+
+array:
+
+kadane's algorithm
+Dutch National Flag Algorithm : https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/
+
+
 kmp algorithm:
 https://www.youtube.com/watch?v=V5-7GzOfADQ&t=2s
-
