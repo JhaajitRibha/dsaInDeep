@@ -29,7 +29,8 @@ array:
 
 kadane's algorithm
 Dutch National Flag Algorithm : https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/
-
+Floyd’s Cycle Detection Algorithm
+Boyer–Moore Voting Algorithm
 
 kmp algorithm:
 https://www.youtube.com/watch?v=V5-7GzOfADQ&t=2s
