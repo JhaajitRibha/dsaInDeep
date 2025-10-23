@@ -1,4 +1,4 @@
-package DSA_PHASE_1_Pattern_GFGVideos.Array.LinkedList.SotedInsertInLInkedList;
+package DSA_PHASE_1_Pattern_GFGVideos.Array.LinkedList.GFGVideos.SotedInsertInLInkedList;
 
 import DSA_PHASE_1_Pattern_GFGVideos.Array.LinkedList.GFGVideos.LInkedListTraversal.LInkedListTraversalA1;
 import DSA_PHASE_1_Pattern_GFGVideos.Array.LinkedList.GFGVideos.Node;
