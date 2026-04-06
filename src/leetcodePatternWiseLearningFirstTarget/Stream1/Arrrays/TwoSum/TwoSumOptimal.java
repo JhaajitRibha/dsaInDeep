@@ -1,21 +1,20 @@
 package leetcodePatternWiseLearningFirstTarget.Stream1.Arrrays.TwoSum;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
-public class TwoSumBetter {
+public class TwoSumOptimal {
     public static int[] twoSum(int[] nums, int target) {
-        int[] res= new int[2];
+        HashMap<Integer,Integer> twoSumMap = new HashMap<>();
         for(int i=0;i<nums.length;i++){
-            int sum=nums[i];
-            for(int j=i+1;j<nums.length;j++){
-                if(target==sum+nums[j]){
-                    res[0]=i;
-                    res[1]=j;
-                }
+            int complement = target-nums[i];
+            if(twoSumMap.containsKey(complement)){
+                return new int[]{twoSumMap.get(complement),i};
+            }else{
+                twoSumMap.put(nums[i],i);
             }
         }
-
-        return res;
+        return new int[]{};
     }
     public static void main(String[] args) {
 
@@ -25,3 +24,4 @@ public class TwoSumBetter {
         Arrays.stream(res).forEach(x-> System.out.println(x));
     }
 }
+
