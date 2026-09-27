@@ -5,6 +5,9 @@ import java.util.stream.Collectors;
 
 
 public class TKFE348Brute {
+//    Input: nums = [1,1,1,2,2,3], k = 2
+//
+//    Output: [1,2]
     public static int[] topKFrequent(int[] nums, int k) {
         List<int[]> container =  new ArrayList<>();
         boolean[] visited = new boolean[nums.length];
